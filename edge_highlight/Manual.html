@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Inner Rim Highlight</title></head>
+<body>
+<h2>Inner Rim Highlight</h2>
+<p>Creates a separate white paint layer that fades inward from the transparent edge of the active layer.</p>
+<h3>Usage</h3>
+<ol>
+  <li>Select the layer containing your filled character/object.</li>
+  <li>Choose <b>Tools → Scripts → Inner Rim Highlight…</b></li>
+  <li>Adjust width, opacity and softness, then click <b>Generate</b>.</li>
+  <li>The result appears as a new paint layer above the source. Erase or mask any highlights you do not want.</li>
+</ol>
+<p><b>Width</b> controls how far inward the white fade extends.</p>
+<p><b>Opacity</b> controls the strongest white part of the effect.</p>
+<p><b>Softness</b> controls how gradual the fade is.</p>
+<p><b>Alpha threshold</b> ignores extremely faint source pixels; raise it if tiny stray pixels generate unwanted highlight islands.</p>
+<p><b>Limit to current selection</b> lets you generate the effect only on selected parts of the layer.</p>
+<h3>Limitations</h3>
+<p>This version supports 8-bit RGBA source layers. It uses layer transparency as the edge, so opaque internal line art does not count as a shape boundary unless it separates transparent areas.</p>
+</body>
+</html>

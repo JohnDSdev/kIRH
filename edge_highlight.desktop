@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=Krita/PythonPlugin
+X-KDE-Library=edge_highlight
+X-Python-2-Compatible=false
+X-Krita-Manual=Manual.html
+Name=Inner Rim Highlight
+Comment=Generate a soft white highlight just inside the opaque edges of a layer.
